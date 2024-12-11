@@ -16,4 +16,8 @@ public class Race {
         }
     }
 
+    public boolean contains(String name){
+        return cars.stream().anyMatch(o -> o.name.equals(name));
+    }
+
 }
