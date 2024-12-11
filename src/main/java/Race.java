@@ -1,7 +1,7 @@
-import java.util.HashSet;
+import java.util.ArrayList;
 
 public class Race {
-    HashSet<Car> cars = new HashSet<>();
+    ArrayList<Car> cars = new ArrayList<>();
     Car leader;
 
     //После успешного ввода рассчитываем, сколько километров за 24 часа смог проехать каждый участник гонки (автомобиль), и запоминаем лидера.
